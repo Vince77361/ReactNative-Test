@@ -16,7 +16,7 @@ const MainScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.HeadText}>ㅎㅇ</Text>
+      <Text style={styles.HeadText}>메인 페이지</Text>
       <ScrollView showsVerticalScrollIndicator={false}>
         {data.map((key: any) => (
           <ListItem key={key.id} title={key.title} content={key.content} />

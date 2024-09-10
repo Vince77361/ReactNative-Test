@@ -5,6 +5,7 @@ import ListItem from "../components/ListItem";
 
 const MainScreen = () => {
   const [data, setData] = useState([]);
+
   useEffect(() => {
     const fetchData = async () => {
       await axios
